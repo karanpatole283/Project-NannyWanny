@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.navbar{
+    height: 76px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #E8EEF7;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.subtitle{
+    font-size: 11px;
+    color: #536782;
+    font-weight: 400;
+}
+
+.nav-logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 0px;
+    
+} 
+
+.logo{
+    background-image: url(images/OIP.webp);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    
+}
+
+.border2{
+    border: 2.6px solid transparent;
+}
+.border2:hover{
+    border: 2.6px solid #087FC1;
+    transition: 0.2s ease;
+}
+
+.border{
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.border:hover{
+    border-bottom-color: #087FC1;
+    /* transition: 0.2s ease; */
+}
+
+.name1{
+    color: #12336B;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.name2{
+    color: #10A6A6;
+    font-weight: 700;
+    font-size: 25px;
+}
+.company-name{
+    display: flex;
+    
+}
+
+
+.nav2 p{
+    font-weight: 500;
+    font-size: 14px;
+    display: inline;
+    margin-right: 28px;
+    text-decoration: none;
+
+}
+
+.bookNow button{
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    /* border: none; */
+    height: 30px;
+    background-color: 	#124B91;
+    color: white;
+}
+
+.bookNow:hover{
+    background-color: #087FAD;
+    transition: 0.2s ease;
+}
+
+
+/* HERO SECTION: */
+
+.hero-section{
+    display: flex;
+    height: 650px;
+    width: 100%;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    background-image: url(images/home-img1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.part1{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.15;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    color: 	#12336B;
+    max-width: 500px;
+}
+
+.tagline1{
+    
+    color:#12336B;
+}
+.tagline2{
+    color:#087FC1;
+}
+
+.part2{
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+
+.part3{
+    color: #124B91;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 24px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.bookService{
+    
+    /* background-color: #124B91; */
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    /* border: none; */
+    height: 30px;
+    display: flex;
+    color: white;
+    gap: 15px;
+    align-items: center;
+    margin: 25px 0;
+
+}
+
+.bookService button{
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.book{
+    border: 2px solid white ;
+}
+
+
+/* .border:hover{
+    border: 2px solid white;
+    transition: 3s ease;
+} */
+
+.bookService button:first-child{
+    background-color: #124B91;
+    color: white;
+    border: 0.2px solid transparent;
+}
+
+.bookService button:first-child:hover{
+    border: 2px solid white;
+    transition: 0.2s;
+}
+
+.learn{
+    margin-top: 5px;
+    background-color: white;
+    color: #124B91;
+    border: 0.2px thin #124B91;
+  
+    height: 45px;
+    
+}
+
+.learn:hover{
+    border: 2px solid #124B91;
+    transition: 0.3s ease;
+}
+.paragraph{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #344563;
+    max-width: 460px;
+}
+
+.page2{
+    height:750px;
+    width: 100%;
+    /* margin-top: 50px; */
+    /* background-color: #FFFFFF; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("images/background.png");
+}
+
+.nurseBook{
+        height: 500px;
+        width: 60%;
+    padding-bottom: 250px;
+    border-radius: 7%;
+    margin-right:15px;
+    margin-left: 30px;
+    /* margin-top: 50px; */
+    /* background-color: yellow; */
+    background-image: url();
+    border: 3px solid white;
+    background-image: url("images/nurse-book.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.nurseBook:hover{
+    border: 3px solid #124B91;
+    transition: 0.3s;
+}
+
+.emergencyChildcare{
+    height: 500px;
+    width: 60%;
+    padding-bottom: 250px;
+    border-radius: 7%;
+    margin-right:30px;
+    margin-left: 15px;
+    /* margin-top: 50px; */
+    /* background-color: yellow; */
+    background-image: url();
+    border: 3px solid white;
+    background-image: url("images/emergency.png");
+    background-size: cover;
+
+}
+
+.emergencyChildcare:hover{
+    border: 3px solid #124B91;
+    transition: 0.3s;
+}
+
+.nurseBook h3{
+    color: #12336B;
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 50px;
+    
+}
+
+.aboutnurse{
+    padding-top: 30px;
+    font-size: medium;
+}
+
+.checkbox1{
+    padding-top: 35px;
+    padding-left: 90px;
+    color: #124B91;
+}
+.features{
+
+   list-style: "✓ ";
+
+}
+
+.book_a_nurse{
+
+   padding-left: 70px;
+   padding-top: 35px;
+    
+}
+
+.book_a_nurse button {
+    background-color: #124B91;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.book_a_nurse button:hover {
+    background-color: #087FC1;
+    transform: translateY(-2px);
+}
+
+.emergencyChildcare h3{
+    color: #12336B;
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 50px;
+    
+}
+.fa-children{
+    color: green;
+}
+
+.fa-user-nurse{
+    color: #087FAD;
+}
